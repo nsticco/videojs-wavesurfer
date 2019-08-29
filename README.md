@@ -1,4 +1,4 @@
-Table of Contents
+Note: This fork disables errors when rapidly changing src variable
 -----------------
 Video.js Wavesurfer
 ===================
