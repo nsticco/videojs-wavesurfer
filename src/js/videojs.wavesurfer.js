@@ -670,8 +670,9 @@ class Wavesurfer extends Plugin {
      * @private
      */
     onWaveError(error) {
+        // Trigger disabled to avoid error when rapidly changing src
         // notify listeners
-        this.player.trigger(Event.ERROR, error);
+        // this.player.trigger(Event.ERROR, error);
 
         this.log(error, 'error');
     }
